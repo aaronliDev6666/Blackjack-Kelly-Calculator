@@ -15,3 +15,10 @@ A simple command-line tool that estimates Kelly bet fractions for Blackjack hand
 2. Run with Python 3:
    ```bash
    python3 blackjack_kelly.py
+3. Enter cards separated by spaces (e.g. a a 3 4, a 10, q q q).
+4. Type exit to quit.
+
+**Configuration**
+- DEFAULTDECKSREMAINING: default decks remaining in the shoe (adjust to match table).
+- TRUECOUNTEDGEPERPOINT: edge per true count point (default 0.005 = 0.5%).
+- MAXWINRATE: cap for estimated win rate (default 0.99).
