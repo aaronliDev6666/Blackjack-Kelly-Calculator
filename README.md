@@ -16,7 +16,7 @@ Outputs both full Kelly and half‑Kelly percentages.
 1. Clone the repository.
 2. Run with Python 3:
    `bash
-   python3 blackjackkellybase_hilo.py
+   python3 blackjack-kelly.py
    `
 3. Enter cards separated by spaces (e.g. a a 3 4, a 10, q q q).
 4. Type exit to quit.
